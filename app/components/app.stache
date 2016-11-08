@@ -1,0 +1,12 @@
+<div class="header">
+    <h1>{{title}}</h1>
+</div>
+
+<div class='row'>
+    <ms-content location={location}></ms-content>
+</div>
+
+{{#if ksfl}}
+    {{location.latitude}}
+    {{location.longitude}}
+{{/if}}
