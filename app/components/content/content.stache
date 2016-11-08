@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col-md-6 col-sm-12">
     {{#if restaurantsView}}
-        <div class="list-group box-model">
+        <div class="list-group">
         {{#if restaurants.length}}    
             <a href="#" class="list-group-item list-group-item-action active">
             <h5 class="list-group-item-heading">Restaurants</h5>
@@ -18,7 +18,7 @@
 
         </div>
     {{else}}
-        <div class="card text-xs-center box-model">
+        <div class="card text-xs-center">
             <div class="card-block">
                 <h4 class="card-title">{{selectedRestaurant.name}}</h4>
                 <h6 class="card-subtitle text-muted">{{selectedRestaurant.vicinity}}</h6>
